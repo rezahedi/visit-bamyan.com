@@ -1,0 +1,27 @@
+<div class="routes">
+  <div class=t>
+    <h2><a href='<%- url_for(site.categories.findOne({name: 'Routes'}).path) %>'><%= __('routes') %></a></h2>
+    <p><%= __('routes_subtitle') %></p>
+  </div>
+  <div class="container slider">
+    <div class="articles routes-slider">
+      <% site.categories.findOne({name: 'Routes'}).posts.sort('date', -1).limit(5).each(function(post){ %>
+        <article class=z>
+          <div>
+            <div class=img>
+              <a href='<%- url_for(post.path) %>'><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( image_version(post.thumbnail, {prefix: 'large'}) ) %> 2x" alt="<%- post.title %>" /></a>
+              <div>
+                <p><%- post.terms.route_time %> <span><%- post.terms.route_distance %></span></p>
+              </div>
+            </div>
+            <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
+            <p><a href='<%- url_for(post.path) %>'><%- post.excerpt %></a></p>
+          </div>
+        </article>
+      <% }) %>
+    </div>
+    <button class=prev><%= __('prev') %></button>
+    <button class=next><%= __('next') %></button>
+  </div>
+  <div class=cb></div>
+</div>

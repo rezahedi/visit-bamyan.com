@@ -1,8 +1,50 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  About Bamyan: /about-bamyan
+  Places to go: /categories/Places
+  Things to do:
+    Cultural Festivals: /festivals
+    Sport Events: /sport-events
+    Cafes & Restaurants: /cafes_restaurants
+    Routes: /categories/Routes
+    Religion: /religion
+    Health: /health
+    Culture: /culture
+    Security: /security
+    Visa: /visa
+  Where to Stay: /hotels
+  Contact Us: /contact-us
 rss: /atom.xml
+
+footer_menu:
+  About Bamyan: /about-bamyan
+  Where to Stey: /hotels
+  Collections: /collections
+  Routes: /categories/Routes
+  How to obtain accreditation: /accreditation
+  Help to tourists: /help-to-tourists
+  Where to buy souvenirs: /souvenirs
+
+footer_links:
+  Festivals: /festivals
+  Attractions: /attractions
+  Cafes & Restaurants: /cafes_and_restaurants
+  Entertainment: /entertainment
+  Shopping: /shopping
+  Activities: /activities
+
+footer_description: "This is Photoshop's version of Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit."
+phone_number: "+93 789 750 358"
+email: "info@visit-bamyan.com"
+
+
+tags:
+  Featured: 'images/featured_tag.jpg'
+  Sport: 'marathon-of-afghanistan/DSC_5678.jpg'
+
+categories:
+  Routes: 'images/routes_category.jpg'
+  Places: 'city-of-scream-gholghola/ishkar-453563423.jpg'
 
 # Content
 excerpt_link: Read More
@@ -30,8 +72,13 @@ show_count: false
 # Miscellaneous
 google_analytics:
 gauges_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
+favicon: /assets/favicon.png
+twitter: https://twitter.com/visitbamyan
+twitter_user: visitbamyan
+instagram: https://instagram.com/visitbamyan
+youtube: https://youtube.com/visitbamyan
+facebook: https://facebook.com/visitbamyan
 fb_admins:
-fb_app_id:
+fb_app_id: 601479413669341
+
+theme_color: '#ffbc00'

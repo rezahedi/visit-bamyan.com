@@ -1,11 +1,61 @@
-<footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
-    <%- partial('_partial/sidebar') %>
-  <% } %>
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
+<footer>
+  <div class=foot>
+    <div class="container">
+      <div class="cols">
+        <div class=col>
+          <div class=logo>
+            <a href='<%- url_for() %>'>
+              <svg viewBox="0 0 1730 453.54">
+                <use xlink:href="#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <p><%- theme.footer_description %></p>
+          <p><%- theme.phone_number %><br><%- theme.email %></p>
+          <%- partial('_widget/social_media') %>
+        </div>
+        <div class=col>
+          <ul class=list1>
+            <% for (var i in theme.footer_menu){ %>
+              <li><a href="<%- url_for(theme.footer_menu[i]) %>"><%= i %></a>
+            <% } %>
+          </ul>
+        </div>
+        <div class=col>
+          <ul class=list2>
+            <li><a href='<%- url_for(site.categories.findOne({name: 'Places'}).path) %>'><b>Bamyan Places</b></a></li>
+            <% site.categories.findOne({name: 'Places'}).posts.limit(11).each(function(post){ %>
+              <li><a href='<%- url_for(post.path) %>'><%- post.title %></a></li>
+            <% }) %>
+          </ul>
+          <ul class=list3>
+            <li><a href='<%- url_for(site.categories.findOne({name: 'Sister Cities'}).path) %>'><b>Sister Cities</b></a></li>
+            <% site.categories.findOne({name: 'Sister Cities'}).posts.limit(11).each(function(post){ %>
+              <li><a href='<%- url_for(post.path) %>'><%- post.title %></a></li>
+            <% }) %>
+            <li>&nbsp;</li>
+            <li><a href='#'><b>Things to do</b></a></li>
+            <% for (var i in theme.footer_links){ %>
+              <li><a href="<%- url_for(theme.footer_links[i]) %>"><%= i %></a>
+            <% } %>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="cb"></div>
+  </div>
+  <div class=bar>
+    <div class="container">
+      <p class=copy><%= __('copy_rights') %></p>
+      <p class=made><a href='#'><%= __('made_by') %></a></p>
     </div>
   </div>
 </footer>
+
+<%- partial('_partial/svg_inline') %>
+
+  <%# if (theme.sidebar === 'bottom'){ %>
+    <%#- partial('_partial/sidebar') %>
+  <%# } %>
+      <!-- &copy; <%#= date(new Date(), 'YYYY') %> <%#= config.author || config.title %><br>
+      <%#= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a> -->

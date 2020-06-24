@@ -1,0 +1,95 @@
+<%
+list = [
+  {
+    image: "EadA86nXgAEyd7s.jpg",
+    title: "",
+    source: "Naman Noori",
+    link: "https://twitter.com/Ghaznichi90/status/1272057446442418176"
+  },
+  {
+    image: "37384491_216829875695900_315698225312956416_n.jpg",
+    title: "Round watchtowers, often remains of ancient castles, dot the landscape all across the Central Highlands.",
+    source: "Bearded Lady Robot",
+    link: "https://www.instagram.com/p/Bl7hxD-lWb7/"
+  },
+  {
+    image: "DsDBcXHXgAAtgBT.jpg",
+    title: "Exploring the legend of Zuhak in #Bamyan, an incredible climb! Mountain hiking is my #1 favourite thing to do in #Afghanistan.",
+    source: "Aleta Miller",
+    link: "https://twitter.com/AletaFMiller/status/1063062253128372224"
+  },
+  {
+    image: "DJi3Qz-XoAAuM-D.jpg",
+    title: "Colorful handcraft",
+    source: "Fatima Faizi",
+    link: "https://twitter.com/FatmaFaizi/status/907677037879611392"
+  },
+  {
+    image: "59879634_161296171569925_4156479228835429341_n.jpg",
+    title: "",
+    source: "Najiba Noori",
+    link: "https://www.instagram.com/p/Bxd1g-MFJL5/"
+  },
+  {
+    image: "75491385_424058588486083_2692648852219004731_n.jpg",
+    title: "Dawn in Band-e-Amir National Park",
+    source: "Glen Wilde",
+    link: "https://www.instagram.com/p/B4JlOtGnDtZ"
+  },
+  {
+    image: "72736408_799621810457445_4139927093872455051_n.jpg",
+    title: "Portraits of a boy and his donkey. These were taken in a village in the Fouladi Valley, Bamiyan",
+    source: "P. Nick Curran",
+    link: "https://www.instagram.com/p/B3Zp-IdFQ_4"
+  },
+  {
+    image: "Cs5kqvUWAAECZ4p.jpg",
+    title: "",
+    source: "Atayee",
+    link: ""
+  },
+  {
+    image: "84249188_483842522311105_4839127353454322749_n.jpg",
+    title: "I'll be joining the team for five days a piece to share and live the experience of photographing in this wonderful part of the world",
+    source: "Andrew Quilty",
+    link: ""
+  },
+  {
+    image: "D2cYA4_X0AMj6q9.jpg",
+    title: "Deep blue lakes of Bande Amir",
+    source: "Khayber Khan",
+    link: "https://twitter.com/khyberkhaan/status/1109882247547629568"
+  },
+  {
+    image: "91669522_2616465108623110_5545528457838750028_n.jpg",
+    title: "",
+    source: "I S H K A R",
+    link: "https://www.instagram.com/p/B-ja8LEj-k2"
+  },
+  {
+    image: "69797862_390628438549164_2422190572805231209_n.jpg",
+    title: "This man explained to me that he needed his super sweet goggles to protect his eyes from the bright sunlight in Bamiyan.",
+    source: "Glen Wilde",
+    link: "https://www.instagram.com/p/B3Hy7hknNaC"
+  },
+  {
+    image: "88279142_2587406818038058_4889422532484596058_n.jpg",
+    title: "",
+    source: "Travelestan",
+    link: "https://www.instagram.com/p/B9EOiEBBAtg"
+  }
+]
+%>
+<div class=instagram>
+  <div class="t container"><p>Your photos from Instagram, Twitter or Facebook that shared with <u>#visitBamyan</u> or <u>#Bamyan</u></p></div>
+  <div class=images id=i1>
+    <% list.forEach(function(p){ %>
+      <div class=z>
+        <img loading="lazy" src="<%- url_for( image_version('socialmedia/'+p.image, {prefix: 'small'}) ) %>" srcset="<%- url_for( image_version('socialmedia/'+p.image, {prefix: 'small'}) ) %> 1x, <%- url_for( image_version('socialmedia/'+p.image, {prefix: 'medium'}) ) %> 2x" alt="<%- p.title %>" />
+        <a class=moi href="<%- url_for( image_version('socialmedia/'+p.image, {prefix: 'medium'}) ) %>"><span>@ <%- p.source %></span></a>
+      </div>
+    <% }) %>
+  </div>
+  <div id=i2><a href="#">Show More Photos</a></div>
+  <div class="cb"></div>
+</div>

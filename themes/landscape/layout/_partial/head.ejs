@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
   <%- partial('google-analytics') %>
   <%
   var title = page.title;
@@ -21,16 +20,23 @@
   }
   %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+<meta charset="utf-8">
+<meta name="theme-color" content="<%- theme.theme_color %>">
+<meta name="msapplication-TileColor" content="<%- theme.theme_color %>">
+<meta name="msapplication-navbutton-color" content="<%- theme.theme_color %>">
+<meta name="apple-mobile-web-app-status-bar-style" content="<%- theme.theme_color %>">
+
   <% if (theme.rss){ %>
     <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
   <% } %>
-  <% if (config.highlight.enable){ %>
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <% } %>
-  <%- css('css/style') %>
+  <link href="//fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <%#- css('css/style') %>
+  <%- css('style') %>
 </head>

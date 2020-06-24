@@ -1,0 +1,48 @@
+<%
+const seasons = {
+  spring: "+16",
+  summer: "+24",
+  autumn: "+4",
+  winter: "-18"
+}
+
+// find current season name
+curMonth = date(null, 'M')
+curSeasonNum = Math.ceil( (curMonth-2) / 3 ) // curMonth mines 2 because of milady month and spring start from March!
+currentSeason = Object.keys(seasons)[ curSeasonNum - 1 ]
+
+// sort seasons starting from current season
+let nex = false;
+Object.keys(seasons).forEach(function(s){
+  if(s==currentSeason) nex = true
+  if(!nex){
+    let degree = seasons[s];
+    delete seasons[s];
+    seasons[s] = degree
+  }
+});
+%>
+<div class="weather" style="background-image:url(<%- url_for(currentSeason+'/head.jpg') %>)">
+  <div class="shadow">
+    <div class="container">
+      <div class=t>
+        <h2><%= __('four_season') %></h2>
+        <p><%= __('four_season_subtitle') %></p>
+      </div>
+      <h3 class=now>
+        <a href="<%- url_for(currentSeason) %>">
+          <b><%- seasons[currentSeason] %>°</b><span><%= __(currentSeason) %> <%= __('now') %></span>
+        </a>
+      </h3>
+      <div class=articles>
+        <% delete seasons[currentSeason]; Object.keys(seasons).forEach(function(s){ %>
+          <article class=z>
+            <a href='<%- url_for(s) %>'><img loading="lazy" src="<%- url_for(s+'/thumb.jpg') %>" alt="<%= __(s) %> activities" /></a>
+            <h3><a href='<%- url_for(s) %>'><b><%- seasons[s] %>°</b><span><%= __(s) %></span></a></h3>
+          </article>
+        <% }) %>
+      </div>
+    </div>
+    <div class="cb"></div>
+  </div>
+</div>

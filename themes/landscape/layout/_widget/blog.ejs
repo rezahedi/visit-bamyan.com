@@ -1,0 +1,33 @@
+<div class=stories>
+  <div class="container">
+    <div class="t">
+      <h2><%= __('stories') %></h2>
+      <p><%= __('stories_subtitle') %></p>
+    </div>
+    <div class=slider>
+      <div class="articles stories-slider">
+        <% site.categories.findOne({name: 'Blog'}).posts.sort('date', -1).limit(6).each(function(post){ %>
+        <article class="z pbox">
+          <div>
+            <a href='<%- url_for(post.path) %>' class=z><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( image_version(post.thumbnail, {prefix: 'large'}) ) %> 2x" alt="<%- post.title %>" /></a>
+            <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
+            <p>
+              <span>
+                <svg viewBox="0 0 453.54 453.54"><use xlink:href="#calendar"></use></svg>
+                <%= date(post.date, 'MMM D') %>
+              </span>
+              <span>
+                <svg viewBox="0 0 453.54 453.54"><use xlink:href="#comments"></use></svg>
+                <%- post.author %>
+              </span>
+            </p>
+          </div>
+        </article>
+        <% }) %>
+      </div>
+      <button class=prev><%= __('prev') %></button>
+      <button class=next><%= __('next') %></button>
+    </div>
+  </div>
+  <div class=cb></div>
+</div>

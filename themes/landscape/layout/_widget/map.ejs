@@ -1,0 +1,27 @@
+<div class=map>
+  <div class="mapInner">
+    <div class=circles><div><div></div></div></div>
+    <div class="container">
+      <div class="t">
+        <h2><%= __('map_title') %></h2>
+        <p><%= __('map_drag_tip') %></p>
+      </div>
+      <ul class=points>
+        <% site.categories.findOne({name: 'Places'}).posts.each(function(post){ %>
+        <li style="left:<%- post.terms.left %>;top:<%- post.terms.top %>">
+          <div <%= ( post.terms.thumbnail_align ? 'class='+ post.terms.thumbnail_align : '' ) %>>
+            <% if(post.thumbnail){ %><a href='<%- url_for(post.path) %>'><img loading="lazy" src="<%- url_for(
+                ( post.terms.thumbnail_image ? post.terms.thumbnail_image : post.thumbnail )
+              ) %>" /></a><% } %>
+            <div>
+              <a href='<%- url_for(post.path) %>'><%- post.title %></a>
+              <% if(post.excerpt){ %><p><%- post.excerpt %></p><% } %>
+            </div>
+          </div>
+        </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+  <div class="cb"></div>
+</div>

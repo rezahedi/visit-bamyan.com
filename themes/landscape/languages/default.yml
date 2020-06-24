@@ -3,7 +3,7 @@ search: Search
 tags: Tags
 tagcloud: Tag Cloud
 tweets: Tweets
-prev: Prev
+prev: Previous
 next: Next
 comment: Comments
 archive_a: Archives
@@ -17,3 +17,24 @@ powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
+
+
+routes: Routes
+routes_subtitle: Popular among tourists
+
+four_season: Four Season Fun
+four_season_subtitle: Bamyan is a great adventure at any time of year
+spring: Spring
+summer: Summer
+autumn: Autumn
+winter: Winter
+now: now
+
+map_title: Places on the map
+map_drag_tip: Drag map to see other parts!
+
+stories: Stories
+stories_subtitle: Stories, expriences and adventures of people who visited Bamyan
+
+copy_rights: &copy; Visit Bamyan. All rights reserved.
+made_by: Made by Bamyan Lovers

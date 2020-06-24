@@ -1,4 +1,4 @@
-<% if (config.disqus_shortname){ %>
+<!-- <% if (config.disqus_shortname){ %>
 <script>
   var disqus_shortname = '<%= config.disqus_shortname %>';
   <% if (page.permalink){ %>
@@ -14,12 +14,15 @@
 </script>
 <% } %>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
 
-<% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
-<% } %>
+<%# if (theme.fancybox){ %>
+  <%#- css('fancybox/jquery.fancybox') %>
+  <%#- js('fancybox/jquery.fancybox.pack') %>
+<%# } %>
 
-<%- js('js/script') %>
+<%#- js('js/script') %>
 <%- partial('gauges-analytics') %>
+
+<%- js('js/siema.min') %>
+<%- js('js/s') %>

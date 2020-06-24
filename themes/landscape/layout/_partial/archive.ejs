@@ -1,3 +1,12 @@
+<% head_image = ( page.tag ? theme.tags[page.tag] : theme.categories[page.category] ) %>
+<div class="head thin" style="background-image:url(<%- url_for(( head_image ? head_image : 'images/head.jpg' )) %>)">
+  <div class=title>
+    <div class="container">
+      <h2><%= (page.tag ? page.tag : page.category) %></h2>
+    </div>
+  </div>
+</div>
+
 <% if (pagination == 2){ %>
   <% page.posts.each(function(post){ %>
     <%- partial('article', {post: post, index: true}) %>
@@ -8,24 +17,24 @@
     <% var year = post.date.year(); %>
     <% if (last != year){ %>
       <% if (last != null){ %>
-        </div></section>
+      </div></section>
       <% } %>
       <% last = year; %>
-      <section class="archives-wrap">
+      <!-- <section class="archives-wrap container">
         <div class="archive-year-wrap">
           <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive-year"><%= year %></a>
-        </div>
-        <div class="archives">
+        </div> -->
+        <section class="archive"><div class="container">
     <% } %>
     <%- partial('archive-post', {post: post, even: i % 2 == 0}) %>
   <% }) %>
   <% if (page.posts.length){ %>
-    </div></section>
+    <div class=cb></div></div></section>
   <% } %>
 <% } %>
 <% if (page.total > 1){ %>
-  <nav id="page-nav">
-    <% var prev_text = "&laquo; " + __('prev');var next_text = __('next') + " &raquo;"%>
+  <nav class=pg>
+    <% var prev_text = "« " + __('prev');var next_text = __('next') + " »"%>
     <%- paginator({
       prev_text: prev_text,
       next_text: next_text

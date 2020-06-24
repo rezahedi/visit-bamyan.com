@@ -1,8 +1,20 @@
-<article class="archive-article archive-type-<%= post.layout %>">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'MMM D'}) %>
-      <%- partial('post/title', {class_name: 'archive-article-title'}) %>
-    </header>
+<article class="z pbox">
+  <div>
+    <a href='<%- url_for(post.path) %>' class=z><img loading="lazy" src="<%- url_for(post.thumbnail) %>" alt="<%- post.title %>" /></a>
+    <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
+    <p>
+      <% if(post.date){ %>
+      <span>
+        <svg viewBox="0 0 453.54 453.54"><use xlink:href="#calendar"></use></svg>
+        <%= date(post.date, 'MMM D') %>
+      </span>
+      <% } %>
+      <% if(post.author){ %>
+      <span>
+        <svg viewBox="0 0 453.54 453.54"><use xlink:href="#comments"></use></svg>
+        <%- post.author %>
+      </span>
+      <% } %>
+    </p>
   </div>
 </article>

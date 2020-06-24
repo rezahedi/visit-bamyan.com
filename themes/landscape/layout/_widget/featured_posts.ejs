@@ -1,0 +1,16 @@
+<div class=featured><div class=yb></div><div class=pb></div>
+  <div class="container">
+    <div class=left>
+      <% site.tags.findOne({name: 'Featured'}).posts.sort('date', -1).limit(5).each(function(post, i){ %>
+        <article class='z'>
+          <a href='<%- url_for(post.path) %>'><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( image_version(post.thumbnail, {prefix: 'large'}) ) %> 2x" alt="<%- post.title %>" /></a>
+          <div><h3><a href='<%- url_for(post.path) %>'><%- (post.subtitle ? post.subtitle : post.title ) %></a></h3></div>
+        </article>
+        <% if(i==1){ %>
+          </div><div class=right>
+        <% } %>
+      <% }) %>
+    </div>
+  </div>
+  <div class="cb"></div>
+</div>
