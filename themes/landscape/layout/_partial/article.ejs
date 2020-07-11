@@ -22,24 +22,16 @@
     </div>
   <% } %>
 
+  <div class="container">
+    <p>&nbsp;</p>
+    <p id=sharebtn><b>Share this story with your friends:</b></p>
+    <p>Join us to get know more about unseen face of Afghanistan specialy Bamyan on <a href="<%- theme.facebook %>">Facebook</a>, or follow us on <a href="<%- theme.twitter %>">Twitter</a> and <a href="<%- theme.instagram %>">Instagram</a>.</p>
+    <p>If you liked this story, <a href="http://eepurl.com/g6KC8H" class="mo">sign up for the monthly visit-bamyan.com features newsletter</a>. A handpicked selection of stories from Visit Bamyan Culture, Festivals, Events and Bamyan adventurouse visitor stoies! delivered to your inbox every month.</p>
+  </div>
+
   <div class="cb"></div>
 </div>
-<div class=hire>
-  <div class="container">
-    <ul>
-      <li><a href='#'><img src="<%- url_for('assets/taxi.svg') %>" /> Car Hire</a></li>
-      <li><a href='#'><img src="<%- url_for('assets/bike.svg') %>" /> Rent Bike</a></li>
-      <li><a href='#'><img src="<%- url_for('assets/horse.svg') %>" /> Horseback ride</a></li>
-      <li><a href='#'><img src="<%- url_for('assets/guide.svg') %>" /> Tour Guide</a></li>
-    </ul>
-  </div>
-</div>
 
-<div class="container content">
-  <p>Join us to get know more about unseen face of Afghanistan specialy Bamyan on <a href="<%- theme.facebook %>">Facebook</a>, or follow us on <a href="<%- theme.twitter %>">Twitter</a> and <a href="<%- theme.instagram %>">Instagram</a>.</p>
-  <p>If you liked this story, <a href="http://eepurl.com/g6KC8H" class="mo">sign up for the monthly visit-bamyan.com features newsletter</a>. A handpicked selection of stories from Visit Bamyan Culture, Festivals, Events and Bamyan adventurouse visitor stoies! delivered to your inbox every month.</p>
-  <p id=sharebtn><b>Share this story with your friends:</b></p>
-</div>
 
 <% if (!index && post.comments && config.disqus_shortname){ %>
 <section id="comments">

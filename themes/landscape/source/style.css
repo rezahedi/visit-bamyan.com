@@ -41,6 +41,7 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .menu .sub>a::after{content:"";background-position:center;background-repeat:no-repeat;background-size:contain;transform:rotate(90deg);position:absolute;width:15px;height:15px;margin:5px}
 .menu .sub>a{margin-right:20px}
 .menu .sub.s>a::after{transform:rotate(-90deg)}
+.menu li:last-child ul{right:20px;left:auto}
 
 .menu .sub>a::after, .slider .prev, .slider .next{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4.303 7.4840002'%3E%3Cpath fill='%23fff' d='M4.307 3.74l-.562.56-3.18 3.182-.56-.56 3.18-3.182L.004.56l.56-.562 3.18 3.18z'/%3E%3C/svg%3E")}
 
@@ -62,7 +63,7 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .head.thin{height:350px}
 .head .title{position:absolute;bottom:0;width:100%;background:rgba(0,0,0,0.4);padding:500px 0 20px 0}
 .head h2{font:60px 'Ubuntu', arial;color:#fff; text-align:center}
-.content{padding:30px 0;background:#fff;position:relative;margin-top:-50px;font:18px/30px 'Ubuntu', arial}
+.content{padding:30px 0 60px 0;background:#fff;position:relative;margin-top:-40px;font:18px/30px 'Ubuntu', arial}
 .content h3, .content h4, .content p, .content figure.small, .content figure figcaption, .content blockquote, .content ul, .content ol, .tags{width:650px;margin:0 auto}
 .content h3{padding:30px 0 10px 0;font:normal 34px/42px 'Ubuntu', arial}
 .content h4{padding:28px 0 8px 0;font:normal 30px/40px 'Ubuntu', arial}
@@ -352,6 +353,7 @@ footer .col{width:360px;float:left;margin:0 25px;}
   footer .col{width:314.6px;margin:0 10px}
 }
 @media only screen and (max-width : 768px) {
+  *{outline:none}
   .container{width:425px;margin:0 auto}
 
   #burger, header .social{display:block}
