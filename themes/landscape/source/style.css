@@ -365,7 +365,7 @@ footer .col{width:360px;float:left;margin:0 25px;}
   .menu, .menu ul{float:none}
   .menu>li{float:none;border-bottom:1px solid #fff;margin:0 40px}
   .menu>li:last-child{border:0}
-  .menu li ul{position:relative;top:0}
+  .menu li ul{position:relative;top:0;right:0 !important}
   .menu li a{padding:25px;text-align:center;font-size:22px}
   .menu>li:last-child a{padding:25px}
   .menu li li a{padding:10px 0;text-align:center;border:0}
