@@ -11,12 +11,12 @@ menu:
     Stay Safe: /is-bamyan-safe
   Where to Stay: /hotels
   Contact Us: /contact-us
-  En:
-    فارسی: /persian
-    français: /french
-    中文: /chinese
-    Deutsche: /german
-    Español: /spanish
+#  En:
+#    فارسی: /persian
+#    français: /french
+#    中文: /chinese
+#    Deutsche: /german
+#    Español: /spanish
 rss: /atom.xml
 
 footer_menu:
@@ -36,7 +36,6 @@ footer_links:
   Shopping: /bamyan-souvenirs
   Activities: /tags/Sport/
 
-footer_description: "This is Photoshop's version of Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit."
 phone_number: "+93 789 750 358"
 email: "info@visit-bamyan.com"
 

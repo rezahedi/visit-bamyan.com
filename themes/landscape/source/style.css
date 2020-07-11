@@ -71,7 +71,7 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .content blockquote::before{content:'ˮ';font-size:180px;float:left;margin:-32px 0 0 -75px}
 .content blockquote{font-size:28px;line-height:normal}
 .content ul, .content ol{list-style-position:inside;padding:0}
-.content figure{margin:10px 0}
+.content figure{margin:20px 0}
 .content figure img{width:100%;max-height:600px;object-fit:cover}
 .content figure.left{float:left;margin-right:40px;width:450px}
 .content figure.right{float:right;margin-left:40px;width:450px}
@@ -330,7 +330,7 @@ footer .col{width:360px;float:left;margin:0 25px;}
   .pb, .yb{width:100%}
   .featured h3 a, .featured .right h3 a{padding:40px 20px 15px 20px;font-size:22px}
 
-  .container, .content figure figcaption{width:984px;margin:0 20px}
+  .container{width:984px;margin:0 20px}
   .head .title{padding-bottom:0}
   .content .social .share, .content .social .whatsapp{display:inline-block}
 

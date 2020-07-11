@@ -10,7 +10,7 @@
               </svg>
             </a>
           </div>
-          <p><%- theme.footer_description %></p>
+          <p><%- config.description %></p>
           <p><%- theme.phone_number %><br><%- theme.email %></p>
           <%- partial('_widget/social_media') %>
         </div>
@@ -29,12 +29,12 @@
             <% }) %>
           </ul>
           <ul class=list3>
-            <li><a href='<%- url_for(site.categories.findOne({name: 'Sister Cities'}).path) %>'><b>Sister Cities</b></a></li>
+            <li><b>Sister Cities</b></li>
             <% site.categories.findOne({name: 'Sister Cities'}).posts.limit(11).each(function(post){ %>
               <li><a href='<%- url_for(post.path) %>'><%- post.title %></a></li>
             <% }) %>
             <li>&nbsp;</li>
-            <li><a href='#'><b>Things to do</b></a></li>
+            <li><b>Things to do</b></li>
             <% for (var i in theme.footer_links){ %>
               <li><a href="<%- url_for(theme.footer_links[i]) %>"><%= i %></a>
             <% } %>

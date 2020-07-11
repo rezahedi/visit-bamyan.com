@@ -4,7 +4,6 @@ subtitle: About Bamyan the Valley of Gods
 date: 2020-06-05 09:08:23
 featured_image: about-bamyan/bamyan-buddha-02.jpg
 ---
-{% post_path slug %}
 Bamyan also referred to as the “Shining Light” and “Valley of Gods” is one of the oldest cities in central and South Asia. Inhabited since the third century BC and possess some of the world’s most renowned archaeological sites from the fifth century. Bamyan is located in the central highlands, known as the peaceful Hazarajat, Afghanistan.
 <!-- more -->
 Bamyan lies at the heart of ancient {% post_link silk-road-festival silk road %}, once connecting Chinese commerce with Europe and the broader Mediterranean region. It brought languages, believes and tradition together and home to world’s tallest standing {% post_link buddha-statues Buddha statues %}, carved into the red rock cliffs on the north side of Bamyan town.
@@ -55,7 +54,7 @@ Bamyan is often described as **“the place of shining light.”** The rolling h
 
 Bamiyan’s central cultural monuments are the two Buddha niches for giant statues carved at the eastern and western ends of a high cliff facing the central valley. Some thousand caves inhabited or used by Buddhist monks are also cut into the cliff face and decorated with a rich variety of murals. The Buddhist art of Bamyan, which enjoyed a renaissance after the collapse of the earlier Gandharan culture, spread and influenced various countries along the Silk Road. The Cultural Landscape and Archaeological Remains of the Bamiyan Valley were inscribed on the World Heritage List at the 27th session of the World Heritage Committee in 2003.
 
-<figure><img src="/hexo/images/featured_tag.jpg" /></figure>
+{% post_path slug %}<figure><img src="/hexo/images/featured_tag.jpg" /></figure>
 
 #### A. The 4th -7th Centuries: Bamyan Seen by Xuanzang:
 
