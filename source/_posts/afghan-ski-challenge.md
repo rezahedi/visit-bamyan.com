@@ -3,14 +3,13 @@ title: The Afghan Ski Challenge
 subtitle: Afghan Ski Challenge Promotes Tourism to War-Weary Hindu Kush
 date: 2020-06-13 11:04:37
 categories:
-- Sport Events
+- Festivals
 tags:
 - Featured
 - Winter
-- Spring
 - Sport
-featured_image: afghan-ski-challenge/Bild-18_First-Afghan-Ski-Challenge_cmyk.jpg
-thumbnail: afghan-ski-challenge/Bild-18_First-Afghan-Ski-Challenge_cmyk.jpg
+featured_image: afghan-ski-challenge/vb_head.jpg
+thumbnail: afghan-ski-challenge/vb_head.jpg
 terms:
   duration: Yearly on March
 ---
@@ -23,7 +22,7 @@ Moreover, there are no ski lifts in Afghanistan. And at elevations that can reac
 Plus, there are no ski shops in the nearby vicinity (and by ‘nearby,’ I mean for at least 3,000 miles.) That means all equipment must be brought into the country, adding a lot of weight to the average ‘adventure day pack’—and making you a target for thieves in this impoverished nation.
 
 <figure>
-{% asset_img Afghan-Ski-Club-Photo-courtesy-of-Bamyan-Ski-Club-12-1920x1080.jpg Makeshift skis are available for those who need them to participate in the ski challenge. Photos courtesy of Bamyan Ski Club %}
+{% asset_img Afghan-Ski-Club-Photo-courtesy-of-Bamyan-Ski-Club-12.jpg Makeshift skis are available for those who need them to participate in the ski challenge. Photos courtesy of Bamyan Ski Club %}
 <figcaption>Makeshift skis are available for those who need them to participate in the ski challenge. Photos courtesy of Bamyan Ski Club</figcaption>
 </figure>
 

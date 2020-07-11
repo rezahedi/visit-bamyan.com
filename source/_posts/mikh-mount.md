@@ -1,10 +1,10 @@
 ---
 title: Mikh Mount
+date: 2020-05-14 10:41:20
 categories:
 - Places
-featured_image: images/44.jpg
+featured_image: mikh-mount/head.jpg
 thumbnail: images/44.jpg
-author: John Peterson
 terms:
   top: 749px
   left: 270px

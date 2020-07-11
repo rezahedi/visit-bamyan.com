@@ -30,8 +30,11 @@ autumn: Autumn
 winter: Winter
 now: now
 
-map_title: Places on the map
+map_title: Adventurous Spots
 map_drag_tip: Drag map to see other parts!
+
+events: Festivals
+events_subtitle: Upcoming local cultural festivals and sport events
 
 stories: Stories
 stories_subtitle: Stories, expriences and adventures of people who visited Bamyan

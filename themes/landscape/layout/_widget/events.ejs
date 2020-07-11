@@ -1,0 +1,27 @@
+<div class=stories>
+  <div class="container">
+    <div class="t">
+      <h2><a href="<%- url_for(site.categories.findOne({name: 'Festivals'}).path) %>"><%= __('events') %></a></h2>
+      <p><%= __('events_subtitle') %></p>
+    </div>
+    <div class=slider>
+      <div class="articles">
+        <% site.categories.findOne({name: 'Festivals'}).posts.sort('date', -1).limit(3).each(function(post){ %>
+        <article class="z pbox">
+          <div>
+            <a href='<%- url_for(post.path) %>' class=z><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( post.thumbnail ) %> 2x" alt="<%- post.title %>" /></a>
+            <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
+            <p>
+              <span>
+                <svg viewBox="0 0 453.54 453.54"><use xlink:href="#calendar"></use></svg>
+                <%= post.terms.duration %>
+              </span>
+            </p>
+          </div>
+        </article>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+  <div class=cb></div>
+</div>

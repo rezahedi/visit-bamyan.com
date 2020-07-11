@@ -1,16 +1,17 @@
 ---
 title: The Marathon of Afghanistan
-date: 2020-06-13 11:04:37
+date: 2020-06-13
 categories:
-- Sport Events
+- Festivals
 tags:
 - Featured
+- Amazing Bamyan
 - Summer
 - Sport
 featured_image: marathon-of-afghanistan/DSC_5678.jpg
-thumbnail: marathon-of-afghanistan/DSC_5569.jpg
+thumbnail: marathon-of-afghanistan/vb_DSC_5569.jpg
 terms:
-  duration: Yearly from January to March
+  duration: January or March
 ---
 The Marathon of Afghanistan was the first international marathon to take place in the country and has been held each year since 2015. We’re proud to have been supported by Etisalat since 2016. The event is open to women and men, international and Afghan, people from all ethnic groups and provinces.
 

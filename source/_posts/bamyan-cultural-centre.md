@@ -6,8 +6,8 @@ categories:
 - Places
 tags:
 - Featured
-featured_image: bamyan-cultural-centre/1512790534885.jpg
-thumbnail: bamyan-cultural-centre/1512790505680.jpg
+featured_image: bamyan-cultural-centre/vb_1512790534885.jpg
+thumbnail: bamyan-cultural-centre/vb_1512790534885.jpg
 terms:
   top: 399px
   left: 806px

@@ -4,11 +4,9 @@ date: 2020-05-14 10:41:20
 categories:
 - Blog
 tags:
-- Featured
-- Amazing Bamyan
 - Spring
 featured_image: blog-01/Band-e_Amir_im_Marz_r_Foto_Afghanistan_Matters_CC_BY_2.0_.jpg
-thumbnail: blog-01/Band-e_Amir_im_Marz_r_Foto_Afghanistan_Matters_CC_BY_2.0_.jpg
+thumbnail: blog-01/vb_thumbnail.jpg
 author: Elian Koufman
 ---
 The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.

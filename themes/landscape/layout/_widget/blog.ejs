@@ -9,7 +9,7 @@
         <% site.categories.findOne({name: 'Blog'}).posts.sort('date', -1).limit(6).each(function(post){ %>
         <article class="z pbox">
           <div>
-            <a href='<%- url_for(post.path) %>' class=z><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( image_version(post.thumbnail, {prefix: 'large'}) ) %> 2x" alt="<%- post.title %>" /></a>
+            <a href='<%- url_for(post.path) %>' class=z><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( post.thumbnail ) %> 2x" alt="<%- post.title %>" /></a>
             <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
             <p>
               <span>

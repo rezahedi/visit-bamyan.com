@@ -25,7 +25,7 @@ nav{display:block;position:relative;width:100%}
 			<ul class=menu>
 				<% for (var i in theme.menu){ %>
 					<% if(typeof(theme.menu[i]) === 'object'){ %>
-						<li class="sub"><a href="#"><%= i %></a>
+						<li class="sub"><a><%= i %></a>
 							<ul>
 							<% for (var o in theme.menu[i]){ %>
 								<li><a href="<%- url_for(theme.menu[i][o]) %>"><%= o %></a>

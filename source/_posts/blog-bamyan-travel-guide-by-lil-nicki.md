@@ -7,7 +7,7 @@ tags:
 - Featured
 - Summer
 featured_image: blog-bamyan-travel-guide-by-lil-nicki/562A0619.jpg
-thumbnail: blog-bamyan-travel-guide-by-lil-nicki/562A0733_thumb.jpg
+thumbnail: blog-bamyan-travel-guide-by-lil-nicki/vb_562A0733-1.jpg
 author: Lil Nicki
 ---
 Learn how to get to all the beautiful sites around Bamyan Province on a trip to Afghanistan (for those that dare) in this Bamyan Travel Guide by Lil Nicki.

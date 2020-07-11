@@ -4,7 +4,6 @@ categories:
 - Places
 featured_image: images/37.jpg
 thumbnail: images/37.jpg
-author: John Peterson
 terms:
   top: 483px
   left: 729px

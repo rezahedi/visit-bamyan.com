@@ -7,11 +7,11 @@ categories:
 tags:
 - Featured
 featured_image: band-e-amir-national-park/band-amir-grand-canyon-afghanistan.jpg
-thumbnail: band-e-amir-national-park/bandeamirnationalpark.jpg
+thumbnail: band-e-amir-national-park/vb_bandeamirnationalpark.jpg
 terms:
   top: 392px
   left: 494px
-  thumbnail_image: images/28.jpg
+  thumbnail_image: band-e-amir-national-park/thumb_map.jpg
 ---
 Band-e Amir National Park is a series of six deep blue lakes separated by natural dams made of travertine, a mineral deposit. It's been called Afghanistan's Grand Canyon; 370 square kilometers of soaring cliffs and cascading lakes on the edge of the Hindu Kush Mountains that sits high at an altitude of 2900 m.
 <!-- more -->

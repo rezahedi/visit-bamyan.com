@@ -2,7 +2,7 @@
   <div class="slides">
     <% site.tags.findOne({name: 'Amazing Bamyan'}).posts.sort('date', -1).limit(4).each(function(post, i){ %>
     <div class=slide>
-      <div class=img><img loading="lazy" src="<%- url_for( image_version(post.featured_image, {prefix: 'large'}) ) %>" alt="<%- post.title %>" /></div>
+      <div class=img><img loading="lazy" src="<%- url_for( post.featured_image ) %>" alt="<%- post.title %>" /></div>
       <div class=imgs></div>
       <div class=container>
         <div class=title>

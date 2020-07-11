@@ -4,12 +4,10 @@ date: 2020-06-04 09:46:23
 categories:
 - Blog
 tags:
-- Featured
-- Amazing Bamyan
 - Summer
 - Autumn
-featured_image: blog-02/afghn-12819.jpg
-thumbnail: blog-02/afghn-12819.jpg
+featured_image: blog-02/vb_afghn-12819.jpg
+thumbnail: blog-02/vb_afghn-12819.jpg
 author: Peter Olson
 ---
 After breakfast, we recommend taking a look into Leninskiy Garden, which is a few steps away from the cafe. This is one of the oldest parks in the city.

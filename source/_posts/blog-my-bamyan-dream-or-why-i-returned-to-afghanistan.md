@@ -8,7 +8,7 @@ tags:
 - Summer
 - Amazing Bamyan
 featured_image: blog-my-bamyan-dream-or-why-i-returned-to-afghanistan/DSC_9521.jpg
-thumbnail: blog-my-bamyan-dream-or-why-i-returned-to-afghanistan/DSC_0292_thumb.jpg
+thumbnail: blog-my-bamyan-dream-or-why-i-returned-to-afghanistan/vb_DSC_0292.jpg
 author: Anna Anjci
 ---
 Would you believe me if i told you that i travelled to Afghanistan not once, but twice this year? Indeed, having paid my first visit to Afghanistan less than six months before, I travelled to Afghanistan for a repeat trip in October 2018.

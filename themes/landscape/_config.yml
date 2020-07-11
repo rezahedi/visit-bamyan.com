@@ -3,35 +3,34 @@ menu:
   About Bamyan: /about-bamyan
   Places to go: /categories/Places
   Things to do:
-    Cultural Festivals: /festivals
-    Sport Events: /sport-events
-    Cafes & Restaurants: /cafes_restaurants
-    Routes: /categories/Routes
-    Religion: /religion
-    Health: /health
-    Culture: /culture
-    Security: /security
-    Visa: /visa
+    Cultural Festivals: /categories/Festivals
+    Sport Events: /tags/Sport/
+    Try Local Foods: /cafes_restaurants
+    Hiking: /categories/Routes
+    Buy Souvenirs: /bamyan-souvenirs
+    Stay Safe: /is-bamyan-safe
   Where to Stay: /hotels
   Contact Us: /contact-us
+  En:
+    فارسی: /persian
 rss: /atom.xml
 
 footer_menu:
   About Bamyan: /about-bamyan
   Where to Stey: /hotels
-  Collections: /collections
-  Routes: /categories/Routes
-  How to obtain accreditation: /accreditation
-  Help to tourists: /help-to-tourists
-  Where to buy souvenirs: /souvenirs
+  Hiking Routes: /categories/Routes
+  Where to buy souvenirs: /bamyan-souvenirs
+  Try Local Dishes: /cafes_restaurants
+  Places to Visit: /categories/Places
+  Stay Safe: /is-bamyan-safe
 
 footer_links:
-  Festivals: /festivals
-  Attractions: /attractions
+  Festivals: /categories/Festivals
+  Attractions: /categories/Places
   Cafes & Restaurants: /cafes_and_restaurants
   Entertainment: /entertainment
-  Shopping: /shopping
-  Activities: /activities
+  Shopping: /bamyan-souvenirs
+  Activities: /tags/Sport/
 
 footer_description: "This is Photoshop's version of Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit."
 phone_number: "+93 789 750 358"
@@ -45,6 +44,7 @@ tags:
 categories:
   Routes: 'images/routes_category.jpg'
   Places: 'city-of-scream-gholghola/ishkar-453563423.jpg'
+  Festivals: 'bamyan-dambora-festival/136441590_14999483302191n.jpg'
 
 # Content
 excerpt_link: Read More

@@ -29,13 +29,15 @@ docReady(function(){
   // menu toggle
   n = document.getElementsByTagName('nav')[0]
   document.getElementById('burger').onclick = function(){
-    if( n.style.display == "block" ) {
+    if( n.classList.contains('sh') ) {
       document.body.style.overflow = 'auto'
-      n.style.display = 'none'
+      // n.style.display = 'none'
+      n.classList.remove('sh')
       this.classList.remove('x')
     } else {
       document.body.style.overflow = 'hidden'
-      n.style.display = 'block'
+      // n.style.display = 'block'
+      n.classList.add('sh')
       this.classList.add('x')
     }
   }
@@ -43,12 +45,12 @@ docReady(function(){
   document.querySelectorAll(".menu .sub").forEach((o)=>{
     if(document.body.offsetWidth <= 1024)
       o.addEventListener('click', (e) => {
-        e.preventDefault();
+        //e.preventDefault();
         e.currentTarget.classList.toggle('s')
       }, false)
     else {
       o.addEventListener('click', (e) => {
-        e.preventDefault();
+        //e.preventDefault();
       }, false)
       o.addEventListener('mouseover', (e) => {
         e.currentTarget.classList.add('s')
@@ -137,6 +139,32 @@ if( hSlides.slides.length > 0 ) {
   hSlides.hst = setTimeout('next(0)', 0);
   document.querySelector('.hslider .next').addEventListener('click', () => { clearTimeout(hSlides.hst); next(1) });
   document.querySelector('.hslider .prev').addEventListener('click', () => { clearTimeout(hSlides.hst); next(-1) });
+}
+
+// instagram slideshow!
+let instas = {};
+instas.slides = document.querySelectorAll("#i1>div");
+instas.cur = 0;
+instas.hst;
+function nexti(s){
+  instas.slides[ instas.cur ].classList.remove("hover")
+  instas.cur += s;
+  if( instas.cur > instas.slides.length-1 || ( document.body.offsetWidth <= 425 && instas.cur > 5 ) )
+    instas.cur = 0;
+  else if( instas.cur < 0 )
+    instas.cur = instas.slides.length-1;
+  instas.slides[ instas.cur ].classList.add("hover")
+  instas.hst = setTimeout('nexti(1)', 3000);
+}
+if( instas.slides.length > 0 ) {
+  instas.hst = setTimeout('nexti(0)', 0);
+  document.getElementById('i1').onmouseover = function(){
+    clearTimeout(instas.hst)
+    instas.slides[ instas.cur ].classList.remove("hover")
+  }
+  document.getElementById('i1').onmouseout = function(){
+    instas.hst = setTimeout('nexti(1)', 1000);
+  }
 }
 
 

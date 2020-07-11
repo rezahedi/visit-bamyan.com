@@ -115,21 +115,9 @@ html_minifier:
 
 # Hexo Filter Responsive Images
 responsive_images:
-  pattern: '**/*.+(png|jpg|jpeg)'
-  quality: 80
+  pattern: '**/vb_*.+(png|jpg|jpeg)'
+  quality: 100
   sizes:
-    small:
-      width: 400
-      height: 300
-      fit: cover
-      quality: 90
     medium:
-      width: 700
+      width: 800
       fit: cover
-      quality: 85
-      withoutEnlargement: true
-    large:
-      width: 1350
-      fit: cover
-      quality: 80
-      withoutEnlargement: true

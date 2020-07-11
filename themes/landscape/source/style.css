@@ -9,7 +9,7 @@ body{margin:0 auto;font-family:'Ubuntu', arial;max-width:1350px;background:#fff;
 --golden: #ffbc00;
 --dark:#24292e;
 --grey:#586069}
-a, article, span, header, .menu li ul, .points li::after, .points li>div, .weather h3, article.pbox>div, .tourguide article>div, #i1, #i1 div{transition:all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1)}
+a, article, span, header, nav, nav .social, .menu li ul, .points li::after, .points li>div, .weather h3, article.pbox>div, .tourguide article>div, #i1, #i1 div{transition:all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1)}
 a{text-decoration:none}
 a:hover{color:var(--golden)}
 noscript{text-align:center;display:block}
@@ -29,16 +29,17 @@ header .logo{float:left}
 #burger.x{background-position-y:-113px}
 header .social{display:none;position:absolute;bottom:0;width:100%;background:var(--golden)}
 .menu, .menu ul{list-style:none;margin:0;padding:0;float:right}
+.menu{margin:0 -20px}
 .menu>li{float:left;position:relative}
 .menu li a{display:block;padding:29px 25px;font:20px 'Ubuntu', arial;color:#fff;text-decoration:none;cursor:pointer}
 .menu>li>a:hover{color:var(--golden)}
 .fixed .menu li a:hover, .menu li ul a:hover{color:#004b59}
-.menu li:last-child a{padding-right:0}
 .menu li ul{max-height:0;overflow:hidden}
 .menu li ul{position:absolute;top:80px;left:0;background:var(--golden);width:auto}
 .menu li ul a{white-space:nowrap;padding:12px 20px;font-size:18px}
 .menu .s>ul{max-height:600px;margin:-10px 0 10px 0}
 .menu .sub>a::after{content:"";background-position:center;background-repeat:no-repeat;background-size:contain;transform:rotate(90deg);position:absolute;width:15px;height:15px;margin:5px}
+.menu .sub>a{margin-right:20px}
 .menu .sub.s>a::after{transform:rotate(-90deg)}
 
 .menu .sub>a::after, .slider .prev, .slider .next{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4.303 7.4840002'%3E%3Cpath fill='%23fff' d='M4.307 3.74l-.562.56-3.18 3.182-.56-.56 3.18-3.182L.004.56l.56-.562 3.18 3.18z'/%3E%3C/svg%3E")}
@@ -132,8 +133,12 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .featured .right h3 a{padding:30px 15px 10px 15px;font:normal 26px 'Ubuntu', arial}
 
 /* Title of home sections */
-.t, .t a{color:#fff}
+.t, .t a{color:var(--dark)}
+.t p{color:var(--grey)}
+.t.w, .t.w a, .t.w p{color:#fff}
+
 .t h2{font:normal 55px 'Ubuntu', arial;margin:0}
+.t h2 a:hover{text-decoration:underline}
 .t p{font-size:22px;margin:5px 0 0 0}
 
 /* ROUTES SECTION */
@@ -154,7 +159,7 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .routes article p{margin:0;font:18px/24px 'Ubuntu', arial}
 
 /* TOUR GUIDE SECTION */
-.tourguide{padding:60px 0;background:#f2f2f2}
+/* .tourguide{padding:60px 0;background:#f2f2f2}
 .tourguide h3{margin:0 0 40px 0;font:normal 32px 'Ubuntu', arial;color:var(--dark);text-align:center}
 .tourguide .articles{margin:0 -16px}
 .tourguide article{float:left;margin:0 16px}
@@ -165,7 +170,7 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .tourguide article h3{text-align:left;margin:0 20px}
 .tourguide article h3 a{font:normal 22px 'Ubuntu', arial; color:var(--dark)}
 .tourguide article p{margin:0;padding:10px 20px 20px 20px;font:18px/24px 'Ubuntu', arial;color:var(--grey)}
-.tourguide button{display:none}
+.tourguide button{display:none} */
 
 /* WEATHER SECTION */
 .weather{background-position:center top}
@@ -175,7 +180,8 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 .weather .now a{color:#fff}
 .weather .now b{display:block; border-bottom:1px solid #fff;padding-bottom:10px;margin-bottom:10px}
 .weather .articles{float:right;margin:30px -10px 0 -10px}
-.weather article{float:left;margin:0 10px;position:relative;overflow:hidden;display:inline-block}
+.weather article{float:left;margin:0 10px;position:relative;overflow:hidden;display:inline-block;width:245px;height:400px}
+.weather article img{width:100%;height:100%}
 .weather article h3{position:absolute;top:0;left:0;background:rgba(0,0,0,0.3);width:100%;height:100%;margin:0}
 .weather article h3:hover{background:rgba(0,0,0,0.5)}
 .weather article h3 a{font:normal 26px/26px 'Ubuntu', arial;width:100%;height:100%;display: inline-block;text-align:right}
@@ -184,19 +190,21 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 
 /* MAP SECTION */
 .mapInner{position:relative;padding:60px 0;background:#fff url(assets/map.png) no-repeat right 50px;height:890px;overflow:hidden}
+.map{margin-top:-123px}
 .map .circles, .map .circles div{position:absolute;border-radius:1000px}
 .map .circles>div>div{left:200px;top:200px;width:300px;height:300px;background:radial-gradient(transparent,rgba(0,0,0,0) 120px, rgba(0,0,0,0.05) 150px);}
 .map .circles>div{left:200px;top:200px;width:700px;height:700px;background:radial-gradient(transparent,rgba(0,0,0,0) 310px, rgba(0,0,0,0.05) 350px);}
 .map .circles{right:-180px;top:-85px;width:1100px;height:1100px;background:radial-gradient(transparent,rgba(0,0,0,0) 500px, rgba(0,0,0,0.03) 550px);}
-.map .t{color:var(--dark)}
-.map .t p{display:none}
+.mmap{position:relative;padding-top:60px}
+.mmap>.container{position:relative;z-index:2}
+.mmap .t p{display:none}
 .points{margin:0;padding:0;list-style:none;position:absolute;top:50px;right:0;width:1117px;height:905px}
 .points li{position:absolute}
 .points li>div{
   border-radius:5px;box-shadow:0 0 10px rgba(0,0,0,0.2);
   opacity:0;visibility:hidden;
   padding:10px 15px;background:rgb(255, 255, 255, 0.97);width:auto;border:grey;
-  position:absolute;bottom:15px;right:-40px;z-index:1
+  position:absolute;bottom:15px;right:-40px;z-index:2
 }
 .points li>div::after{
   content:"";
@@ -225,26 +233,25 @@ header .social{display:none;position:absolute;bottom:0;width:100%;background:var
 
 /* INSTAGRAM SECTION */
 .instagram{margin:-40px 0 0 0;position:relative}
-.instagram .t p{color:var(--grey);font:20px 'Ubuntu', arial;margin:0 0 30px 0}
+.instagram .t p{font:20px 'Ubuntu', arial;margin:0 0 30px 0}
 .instagram a{color:#fff}
 
 #i1{display:flex}
 #i1 div{flex-basis:0;flex-grow:1}
-#i1 div:hover{flex-grow:4}
 #i1 img{width:100%;height:250px}
 #i1 div{position:relative;overflow:hidden;display:inline-block}
 
 #i1 div a{position:relative;opacity:0;position:absolute;top:0;left:0;background:rgba(0,0,0,0.3);display:inline-block;width:100%;height:100%;margin:0}
 #i1 div a span{position:absolute;opacity:0;bottom:0;left:20px;}
-#i1 div a:hover{opacity:1}
-#i1 div a:hover span{bottom:15px;opacity:1}
+#i1 div:hover, #i1 div.hover{flex-grow:4}
+#i1 div:hover a, #i1 div.hover a{opacity:1}
+#i1 div:hover a span, #i1 div.hover a span{bottom:15px;opacity:1}
 
 /* STORIES SECTION */
 .stories{padding:60px 0 30px 0}
-.stories .t{color:var(--dark);text-align:center;margin-bottom:50px}
-.stories .t p{color:var(--grey)}
+.stories .t{text-align:center;margin-bottom:50px}
 .stories .articles{margin:0 -20px}
-article.pbox{float:left;margin:0 20px 30px 20px}
+article.pbox{float:left;margin:0 20px 30px 20px;width:366px}
 article.pbox>div{background:#f2f2f2}
 article.pbox>div:hover{background:var(--golden)}
 article.pbox img{width:100%;height:270px}
@@ -299,9 +306,10 @@ footer .col{width:360px;float:left;margin:0 25px;}
 .mod:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-4px}
 .mod>div{display:inline-block;text-align:left;vertical-align:middle;position:relative;background:#fff;margin:auto}
 .mod>div h2{text-align:center}
-.mod span.clx{cursor:pointer;position:absolute;top:0;right:0;width:25px;height:25px;padding:15px}
-xx.mod .c{width:100%;height:100%}
-.mod .c img{display:block}
+.mod .clx{cursor:pointer;position:absolute;top:0;right:0;width:25px;height:25px;padding:15px;
+  -webkit-filter:drop-shadow(0 0 2px rgba(0,0,0,1));filter:drop-shadow(0 0 2px rgba(0,0,0,1))}
+.mod .clx svg{fill:#fff}
+.mod .c img{display:block;max-width:900px;max-height:800px}
 
 /* subscribe form */
 .ss{padding:50px;width:400px;height:280px}
@@ -325,7 +333,7 @@ xx.mod .c{width:100%;height:100%}
   .head .title{padding-bottom:0}
   .content .social .share, .content .social .whatsapp{display:inline-block}
 
-  .menu li a{padding:20px 25px}
+  .menu li a{padding:20px 15px}
   .menu li ul{top:60px}
   .featured .left, .featured .right{width:482px}
   .featured .right{margin-top:0}
@@ -347,7 +355,10 @@ xx.mod .c{width:100%;height:100%}
   .container{width:425px;margin:0 auto}
 
   #burger, header .social{display:block}
-  nav{display:none;position:fixed;top:0;left:0;background:var(--golden);width:100%;height:100%;z-index:-1;max-height:820px;overflow:hidden}
+  nav{position:fixed;top:0;left:0;background:var(--golden);width:100%;height:0;z-index:-1;max-height:820px;overflow:hidden}
+  nav .social{opacity:0}
+  nav.sh{height:100%}
+  nav.sh .social{opacity:1}
   .menu{margin:60px 0;padding-bottom:150px;overflow-y:scroll;box-sizing:border-box;height:100%}
   .menu, .menu ul{float:none}
   .menu>li{float:none;border-bottom:1px solid #fff;margin:0 40px}
@@ -396,9 +407,9 @@ xx.mod .c{width:100%;height:100%}
   .tourguide button{display:block}
   .weather .now{margin-top:20px;font-size:35px}
   .weather img{display:none}
-  .map{overflow-x:scroll}
+  .map{margin-top:-100px;overflow-x:scroll}
   .mapInner{width:1100px}
-  .map .t p{display:block}
+  .mmap .t p{display:block}
   .weather article{width:auto}
   .weather .now, .weather .articles, .weather article{float:none}
   .weather article{display:block;height:65px;overflow:visible;margin-bottom:10px}

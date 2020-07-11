@@ -1,5 +1,5 @@
 <div class="routes">
-  <div class=t>
+  <div class="t w">
     <h2><a href='<%- url_for(site.categories.findOne({name: 'Routes'}).path) %>'><%= __('routes') %></a></h2>
     <p><%= __('routes_subtitle') %></p>
   </div>
@@ -9,7 +9,7 @@
         <article class=z>
           <div>
             <div class=img>
-              <a href='<%- url_for(post.path) %>'><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( image_version(post.thumbnail, {prefix: 'large'}) ) %> 2x" alt="<%- post.title %>" /></a>
+              <a href='<%- url_for(post.path) %>'><img loading="lazy" src="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %>" srcset="<%- url_for( image_version(post.thumbnail, {prefix: 'medium'}) ) %> 1x, <%- url_for( post.thumbnail ) %> 2x" alt="<%- post.title %>" /></a>
               <div>
                 <p><%- post.terms.route_time %> <span><%- post.terms.route_distance %></span></p>
               </div>

@@ -1,43 +1,93 @@
 ---
 title: Hotels
-subtitle: Where to stay and rest
+subtitle: Where to stay and rest in Bamyan
 date: 2020-05-14 10:41:20
-featured_image: blog-01/Band-e_Amir_im_Marz_r_Foto_Afghanistan_Matters_CC_BY_2.0_.jpg
-thumbnail: blog-01/Band-e_Amir_im_Marz_r_Foto_Afghanistan_Matters_CC_BY_2.0_.jpg
+featured_image: hotels/char-burl-highland-hotel.jpg
 ---
-The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.
-<!-- more -->
-The cafe with the most morning-themed name (which means 'Early Bird' in Russian) gives away a free coffee to the first visitor of the day, every day. However, night owls can also rejoice since breakfast is served until 3:00pm. In addition to coffee, you can order porridge, omelette or bagels, as you people watch through the large windows of the coffee shop.
+Bamyan has a rich and diverse history that has influenced many civilizations, including the Buddhism, Mongols and Islam. Its historical importance will be reflected in the city’s food, culture, and sites.
 
-<p></p>
-<blockquote>The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.</blockquote>
-<p></p>
+But where to stay in Bamyan? It’s a small but sparse city, and some Bamyan locations are definitely better bases than others.
 
-After breakfast, we recommend taking a look into Leninskiy Garden, which is a few steps away from the cafe. This is one of the oldest parks in the city - locals have been coming here since the second half of the 19th century. The main attractions of the garden are the Fountain of Love and a [monument to outstanding chemist](#) Alexander Butlerov.
+Do you want to have a Historical site view or wake up to beautiful nature of Bamyan, Whatever it is that you’re looking for, we cover all of this and more below in our neighborhood breakdown for where to stay in Bamyan!
+
+Let’s kick off our list of hostels in Bamyan by looking at some that warrant the journey alone. So, let’s take a look!
+
+### Quick Tips – Where to Stay in Bamyan
+
+- Where to stay in Bamyan for first-timers – Roof of Bamyan
+- Where to stay in Bamyan on a budget – Highland Hotel Bazaar
+- Where to stay in Bamyan for nightlife – Chil Burj Hotel
+- Coolest place to stay in Bamyan – Char Burj Highland Hotel
+- Where to stay in Bamyan for best view – Gholghola Hotel
+
+
+### Gholghola Hotel
 
 <figure>
 {% asset_img slug %}
-{% asset_img afghanistan-snow-hindu-kush.ngsversion.1396531519254.jpg This is an example image %}
-<figcaption>The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.</figcaption></figure>
+{% asset_img gholghola-hotel.jpg Gholghola Hotel %}
+<figcaption>The outside view of Gholghola Hotel - Fatima Faizi/The New York Times</figcaption></figure>
 
-The cafe with the most morning-themed name (which means 'Early Bird' in Russian) gives away a free coffee to the first visitor of the day, every day. However, night owls can also rejoice since breakfast is served until 3:00pm. In addition to coffee, you can order porridge, omelette or bagels, as you people watch through the large windows of the coffee shop.
+- Free breakfast
+- Roof terrace
+- Great view of Buddha statues
+- Modern design with local food
 
-**You may also be interested in:**
+Let's begin our list with the bigest hotel in Bamyan city right in front of Buddha statues, Gholghola hotel will not only make an awesome base for sightseeing in this stunning valley, but you will get to experience the view of natural beauty of Bamyan. It's one of the best equiped hotel in Bamyan even Afghanistan.
 
-* [Bamyan must visited places](#)
-* [Best dishes in city local bazar](#)
-* [which is a few steps away from the cafe](#)
-* [Yakavlang doesn't live solely off echpochmaks](#)
+### Char Burj Highland Hotel
 
-### Meet the first rays of sun at Cream Coffee
+<figure class=medium>
+{% asset_img char-burl-highland-hotel.jpg Char Burj Highland Hotel %}
+<figcaption>The view of Char Burj Highland Hotel from back side of hotel</figcaption></figure>
 
-After breakfast, we recommend taking a look into Leninskiy Garden, which is a few steps away from the cafe. This is one of the oldest parks in the city - locals have been coming here since the second half of the 19th century. The main attractions of the garden are the Fountain of Love and a monument to outstanding chemist Alexander Butlerov.
+- Free breakfast
+- Roof terrace
+- Panorama view of valley
+- Calm area
 
-<figure>
-<img src="/assets/06.jpg" /><figcaption>The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.</figcaption></figure>
+Char Burj means four towers that surround the hotel area is made like old architecture of Bamyan castles that make this hotel unique in Bamyan, and also a panoramic and colorful view of vally in each season. Char Burj Highland hotel placed out of city, around 10 min drive to historical sites made it a calm place to stay and enjoy the peaceful area.
 
-### Try all 8 types of breakfast at Truffo
+### Silk Road Hotel
 
-Although it may sometimes seem like it, Kazan doesn't live solely off echpochmaks, and as proof, here is one place where you can diversify your diet with a French, English or Mediterranean breakfast. Truffo offers eight different types of breakfast including healthy options, alongside freshly brewed coffee.
+<figure class=medium>
+{% asset_img silk-road-hotel.jpg Silk Road Hotel %}
+</figure>
 
-This is a great place to start the day especially for those who love museums, the Musa Dzhalil Museum-Apartment, State Museum of Fine Arts, the Boratynsky Museum and Vasily Aksenov's House Museum are all literally around the corner.
+- Free breakfast
+- Buddha Statue view
+- Near to Bazaar
+
+Hotel owned by a Japanese woman and was famous for their japanese food but now just serving Afghan food.
+
+### Highland Hotel
+
+<figure class=medium>
+{% asset_img highland-hotel.jpg Highland Hotel %}
+</figure>
+
+- Free breakfast
+- Roof terrace
+- Folady valley view
+- Delicius food
+
+Highland hotel famous for their food, hospitality and great service. You can enjoy your stay here with delicius food.
+
+### Chil Burj Hotel
+
+<figure class=medium>
+{% asset_img chil-burj-hotel-01.jpg %}
+</figure>
+
+- Near to {% post_link dragon-valley Dragon valley %}
+- Night life
+- Calm area
+- Near to Hospital
+
+Chil Burj means Forty Towers fortress and the name taken from {% post_link chil-burj Chil Burj historical castle %} in Yakavlang district.
+
+<figure class=small>
+{% asset_img chil-burj-hotel-02.jpg %}
+</figure>
+
+There are several local and cheap hotels that mostly occupied by local travelers in bazaar. You can try them too but we do not recommend!
