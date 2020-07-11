@@ -438,8 +438,8 @@ footer .col{width:360px;float:left;margin:0 25px;}
   .stories{padding-bottom:0}
   .featured .left article, .featured .right article{height:300px}
   .mod>div{width:auto;height:auto}
-  .mod img{max-width:100%;max-height:100%}
-  .ss{padding:0;width:auto;height:auto}
+  .mod .c img{max-width:100%;max-height:100%}
+  .ss{padding:30px;width:auto;height:auto}
   #i1 div:nth-child(7), #i1 div:nth-child(8), #i1 div:nth-child(9), #i1 div:nth-child(10), #i1 div:nth-child(11), #i1 div:nth-child(12), #i1 div:nth-child(13){display:none}
 }
 
