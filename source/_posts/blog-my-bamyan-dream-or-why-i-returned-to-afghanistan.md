@@ -12,7 +12,7 @@ thumbnail: blog-my-bamyan-dream-or-why-i-returned-to-afghanistan/vb_DSC_0292.jpg
 author: Anna Anjci
 ---
 Would you believe me if i told you that i travelled to Afghanistan not once, but twice this year? Indeed, having paid my first visit to Afghanistan less than six months before, I travelled to Afghanistan for a repeat trip in October 2018.
-<!-- more -->
+<!--more-->
 **Copyright Note:** This post was written and published by Anna on [Anjci All Over website](http://anjci.com/2018/12/returned-to-afghanistan.html) about her trip to Bamyan and other places in Afghanistan.
 
 Why? I was not entirely happy with my first visit. Some of you may remember how disappointed I felt not being able to visit Bamyan, a mountainous province renowned for its spectacular natural and historic sites that has become the highlight of Afghanistan to many visitors and was indeed the main destination I had in mind when planning the trip. Commercial flights to Bamyan having been suspended just weeks before my initial visit – they have not been reinstated to this day despite continued promises to do so – meant that I could not travel to Bamyan by air. And I could not travel by road, either: both driving routes connecting Kabul with Bamyan, passing through Wardak and Ghorband, were deemed unsafe for foreign tourists by Untamed Borders, the reputable Western travel company I was travelling with.

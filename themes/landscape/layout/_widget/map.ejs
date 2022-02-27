@@ -13,11 +13,13 @@
           <% site.categories.findOne({name: 'Places'}).posts.each(function(post){ %>
           <li style="left:<%- post.terms.left %>;top:<%- post.terms.top %>">
             <div <%= ( post.terms.thumbnail_align ? 'class='+ post.terms.thumbnail_align : '' ) %>>
-              <% if(post.thumbnail){ %><a href='<%- url_for(post.path) %>'><img loading="lazy" src="<%- url_for(
-                  ( post.terms.thumbnail_image ? post.terms.thumbnail_image : post.thumbnail )
-                ) %>" /></a><% } %>
+              <% if(post.thumbnail){ %>
+                <a <%if(post.terms.link){%> href='<%- url_for(post.path) %>'<%}%>>
+                  <img loading="lazy" src="<%- url_for(( post.terms.thumbnail_image ? post.terms.thumbnail_image : post.thumbnail )) %>" />
+                </a>
+              <% } %>
               <div>
-                <a href='<%- url_for(post.path) %>'><%- post.title %></a>
+                <a <%if(post.terms.link){%> href='<%- url_for(post.path) %>'<%}%>><%- post.title %></a>
                 <% if(post.excerpt){ %><p><%- post.excerpt %></p><% } %>
               </div>
             </div>

@@ -4,16 +4,10 @@
     <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
     <p>
       <% if(post.date){ %>
-      <span>
-        <svg viewBox="0 0 453.54 453.54"><use xlink:href="#calendar"></use></svg>
-        <%= date(post.date, 'MMM D') %>
-      </span>
+      <span class=ic-calendar><%= date(post.date, 'MMM D') %></span>
       <% } %>
       <% if(post.author){ %>
-      <span>
-        <svg viewBox="0 0 453.54 453.54"><use xlink:href="#comments"></use></svg>
-        <%- post.author %>
-      </span>
+      <span class=ic-person><%- post.author %></span>
       <% } %>
     </p>
   </div>

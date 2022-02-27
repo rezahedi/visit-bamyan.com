@@ -1,5 +1,6 @@
 ---
 title: Dragon Valley
+subtitle: Valley of the Dragon also known as Dara Ajdahar
 categories:
 - Places
 featured_image: images/dragon-valley.jpg
@@ -10,35 +11,19 @@ terms:
   left: 788px
   thumbnail_align: right
   thumbnail_image: images/38.jpg
+  link: true
 ---
 Also known as Dara Ajdahar 5km west of Bamiyan. Legend has it that this spine of rock split in two is that of a dragon who terrorized the village beneath it.
 <!-- more -->
-The cafe with the most morning-themed name (which means 'Early Bird' in Russian) gives away a free coffee to the first visitor of the day, every day. However, night owls can also rejoice since breakfast is served until 3:00pm. In addition to coffee, you can order porridge, omelette or bagels, as you people watch through the large windows of the coffee shop.
 
-<p></p>
-<blockquote>The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.</blockquote>
-<p></p>
+Five kilometres west of Bamiyan lies Dara Ajdahar, or Valley of the Dragon, where you'll find the petrified remains of a monstrous creature that once terrorised the region. The dragon took up residence in Bamiyan in pagan times, and fed daily on a diet of virgins and camels provided by the browbeaten population. All attempts to slay it ended in a fiery end. Only Ali, the Prophet Mohammed's son-in-law, fresh from creating the {% post_link band-e-amir-national-park Band-e Amir lakes %}, could manage the task. The dragon's burning breath turned to tulip petals as they licked around the hero, whereupon he drew his great sword Zulfiqar and cleaved the monster in two.
 
-After breakfast, we recommend taking a look into Leninskiy Garden, which is a few steps away from the cafe. This is one of the oldest parks in the city - locals have been coming here since the second half of the 19th century. The main attractions of the garden are the Fountain of Love and a [monument to outstanding chemist](#) Alexander Butlerov.
+The dragon can clearly be seen and only those lacking poetry would remark that its body is merely a vast whaleback of volcanic rock split by an ancient earthquake. Others would point instead to the 2m-high horns and the two springs at its head - one running clear with the dragon's tears, the other red with its blood. The springs run the length of the great fissure and bending quietly down next to it, you can sometimes hear the groan of the dead beast echoing through the rock. At the far end of the dragon is a simple shrine dedicated to Ali.
 
-**You may also be interested in:**
+<figure><img src="/blog-bamyan-travel-guide-by-lil-nicki/562A0313-5.jpg" /><figcaption>&copy; Lil Nicki</figcaption></figure>
 
-* [Bamyan must visited places](#)
-* [Best dishes in city local bazar](#)
-* [which is a few steps away from the cafe](#)
-* [Yakavlang doesn't live solely off echpochmaks](#)
+The new village of Ajdahar lies at the head of the valley, built by the UN for Hazara returnees from Iran and Pakistan. It's a grim place, with barely a scrap of greenery, but the villages are trying hard to make a living. The dragon lies at the valley's far end - look for the white smear on the rock and the spur of the dragon's horn on the north slope. Wear decent footwear for the short climb.
 
-The cafe with the most morning-themed name (which means 'Early Bird' in Russian) gives away a free coffee to the first visitor of the day, every day. However, night owls can also rejoice since breakfast is served until 3:00pm. In addition to coffee, you can order porridge, omelette or bagels, as you people watch through the large windows of the coffee shop.
+### How To Get To Dara e Ajdahar
 
-### Meet the first rays of sun at Cream Coffee
-
-After breakfast, we recommend taking a look into Leninskiy Garden, which is a few steps away from the cafe. This is one of the oldest parks in the city - locals have been coming here since the second half of the 19th century. The main attractions of the garden are the Fountain of Love and a monument to outstanding chemist Alexander Butlerov.
-
-<figure>
-<img src="/assets/06.jpg" /><figcaption>The cafe is located on Bauman Street, so after breakfast you can immediately start your day of sightseeing around the main attractions of the city centre.</figcaption></figure>
-
-### Try all 8 types of breakfast at Truffo
-
-Although it may sometimes seem like it, Kazan doesn't live solely off echpochmaks, and as proof, here is one place where you can diversify your diet with a French, English or Mediterranean breakfast. Truffo offers eight different types of breakfast including healthy options, alongside freshly brewed coffee.
-
-This is a great place to start the day especially for those who love museums, the Musa Dzhalil Museum-Apartment, State Museum of Fine Arts, the Boratynsky Museum and Vasily Aksenov's House Museum are all literally around the corner.
+Dara e Ajdahar is located about 7 km west of Bamyan Bazaar. You can reach Dara e Ajdahar on foot if you so desire, otherwise you can hire a taxi from Bamyan Bazaar for about 500 AFS return, including waiting on you. There is a shared taxi that departs the Bazaar as well for the village of Dara e Ajdahar for 30 AFS per seat, but departures are as the van fills up so timings can be a bit erratic.

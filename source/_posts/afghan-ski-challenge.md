@@ -1,6 +1,6 @@
 ---
-title: The Afghan Ski Challenge
-subtitle: Afghan Ski Challenge Promotes Tourism to War-Weary Hindu Kush
+title: Afghan Ski Challenge
+subtitle: The Afghan Ski Challenge
 date: 2020-06-13 11:04:37
 categories:
 - Festivals

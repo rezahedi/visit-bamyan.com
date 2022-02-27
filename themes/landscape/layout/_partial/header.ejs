@@ -1,31 +1,17 @@
-<noscript>Your browser does not support JavaScript!
-<style>
-.menu li:hover ul{display:block;opacity:1}
-header{height:auto;position:relative;}
-nav{display:block;position:relative;width:100%}
-</style>
-</noscript>
-
 <header>
 	<div class='container'>
 		<div class=logo>
-			<a href="<%- url_for() %>" aria-label="<%= config.title %>">
-				<svg viewBox="0 0 1730 453.54">
-					<use xlink:href="#logo"></use>
-				</svg>
-			</a>
+			<a href="<%- url_for() %>" aria-label="<%= config.title %>" class="ic-logo"></a>
 		</div>
 		<button id="burger" aria-label="Menu">
-			<svg viewBox="0 0 453.54 453.54">
-				<use xlink:href="#menu"></use>
-				<use xlink:href="#close"></use>
-			</svg>
+			<span class="ic-menu"></span>
+			<span class="ic-close"></span>
 		</button>
 		<nav>
 			<ul class=menu>
 				<% for (var i in theme.menu){ %>
 					<% if(typeof(theme.menu[i]) === 'object'){ %>
-						<li class="sub"><a><%= i %></a>
+						<li class=sub><a class="ic-arrowb"><%= i %></a>
 							<ul>
 							<% for (var o in theme.menu[i]){ %>
 								<li><a href="<%- url_for(theme.menu[i][o]) %>"><%= o %></a>

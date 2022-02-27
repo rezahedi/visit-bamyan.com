@@ -7,14 +7,14 @@ title: 'Visit Bamyan'
 subtitle: ''
 description: 'Discover the beauty and mystery of amazing stories from Bamyan land of gods and light!'
 keywords:
-author: 'Reza Shark'
+# author: 'Reza Shark!'
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://visit-bamyan.com/hexo
-root: /hexo/
+url: https://visit-bamyan.com
+root: /
 permalink: :title/ # :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

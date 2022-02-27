@@ -7,11 +7,12 @@
       <div class=container>
         <div class=title>
           <h3><a href='<%- url_for(post.path) %>'><%- post.title %></a></h3>
+          <%- ( post.excerpt ? "<a href='" + url_for(post.path) + "'>" + post.excerpt + "</a>" : "<p></p>" ) %>
         </div>
       </div>
     </div>
     <% }) %>
   </div>
-  <button class=prev><%= __('prev') %></button>
-  <button class=next><%= __('next') %></button>
+  <button class="prev ic-arrow"></button>
+  <button class="next ic-arrow"></button>
 </div>

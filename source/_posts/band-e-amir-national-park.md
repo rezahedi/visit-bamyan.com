@@ -1,26 +1,29 @@
 ---
 title: Band-e Amir
-subtitle: Band-e Amir National Park is Grand Canyon of Afghanistan
+subtitle: Band-e Amir National Park
 date: 2020-06-13 09:46:23
 categories:
 - Places
 tags:
 - Featured
+- Virtual Tour
 featured_image: band-e-amir-national-park/band-amir-grand-canyon-afghanistan.jpg
 thumbnail: band-e-amir-national-park/vb_bandeamirnationalpark.jpg
 terms:
   top: 392px
   left: 494px
   thumbnail_image: band-e-amir-national-park/thumb_map.jpg
+  link: true
+  tour: https://www.google.com/maps/embed?pb=!4v1601181192738!6m8!1m7!1sCAoSLEFGMVFpcE1IVks2Uk43WFFueEZURjlCUE5oNmhrQVdXTEVGdWx4TU9BRmdC!2m2!1d34.8328743!2d67.2056503!3f209.53288248095583!4f-9.008804225311493!5f0.7820865974627469&key=AIzaSyDNupwfcLUyw566Xf4nDG5PjBRklzMQWLI
 ---
 Band-e Amir National Park is a series of six deep blue lakes separated by natural dams made of travertine, a mineral deposit. It's been called Afghanistan's Grand Canyon; 370 square kilometers of soaring cliffs and cascading lakes on the edge of the Hindu Kush Mountains that sits high at an altitude of 2900 m.
-<!-- more -->
+<!--more-->
 Band-e Amir National Park is the first national park of Afghanistan. It is a stunning group of turquoise lakes in {% post_link city-of-yakawlang Yakawlang %} district. You can camp. You can picnic. You can even rent swan-shaped paddle boats to navigate one of six deep blue lakes that shimmer high in the Hindu Kush mountains, amid picturesque red-hued cliffs and rocky natural dams.
 
-<figure>
-{% asset_img slug %}
-{% asset_img 190515142331-band-e-amir-national-park-entrance-getty-images.jpg It was established as Afghanistan's first national park back in 2009 after decades of delay due to war. Paula Bronstein/Getty Images %}
-<figcaption>It was established as Afghanistan's first national park back in 2009 after decades of delay due to war. Paula Bronstein/Getty Images</figcaption></figure>
+<figure class=medium>
+<iframe src="https://www.google.com/maps/embed?pb=!4v1601181192738!6m8!1m7!1sCAoSLEFGMVFpcE1IVks2Uk43WFFueEZURjlCUE5oNmhrQVdXTEVGdWx4TU9BRmdC!2m2!1d34.8328743!2d67.2056503!3f209.53288248095583!4f-9.008804225311493!5f0.7820865974627469&key=AIzaSyDNupwfcLUyw566Xf4nDG5PjBRklzMQWLI" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<figcaption><a href="https://goo.gl/maps/t6q4LCJ8BBo6hxc46" target=_blank>View on Google Maps</a></figcaption>
+</figure>
 
 "This park serves as an icon for the identity of the Afghan people for essentially a beacon of stability for three decades of chaos that they went through," says Alex Dehgan, the Wildlife Conservation Society's Afghanistan country director from 2006 to 2008.
 
@@ -28,10 +31,10 @@ The WCS, along with a number of international agencies and funding partners incl
 
 Despite being one of the country's poorest and least developed regions, Bamiyan remains one of the safest areas of Afghanistan today and also noted for employing the country's first-ever female park rangers, who assist with the growing number of local Afghan visitors and families who have been attracted to the park in recent years.
 
-<figure>
-{% asset_img 190515141657-band-e-amir-national-park-getty-images.jpg The stunning park has been described as Afghanistan's Grand Canyon. %}
-<figcaption>The stunning park has been described as Afghanistan's Grand Canyon.</figcaption>
-</figure>
+<figure class=medium>
+{% asset_img slug %}
+{% asset_img 190515142331-band-e-amir-national-park-entrance-getty-images.jpg It was established as Afghanistan's first national park back in 2009 after decades of delay due to war. Paula Bronstein/Getty Images %}
+<figcaption>It was established as Afghanistan's first national park back in 2009 after decades of delay due to war. Paula Bronstein/Getty Images</figcaption></figure>
 
 "Every time we take people [to Band-e-Amir], they have a great day," says James Willcox, founder of UK-based tour company. "Most people's impression of Afghanistan is that it's dry desert, full of just war and terror and misery and fundamentalism. Whereas all those things exist, but lots of other things exist as well...The general sort of banality of life doesn't happen on the news, but it goes on all around us."
 
@@ -41,8 +44,9 @@ Only 375 international tourists visited the park in 2018, according to the Afgha
 
 One of those aspects of everyday life is the annual {% post_link marathon-of-afghanistan Marathon of Afghanistan %}, the country's only mixed-gender sporting event, the third edition of which was held in 2018 in Band-e-Amir National Park with 420 runners, half of whom were women.
 
-<figure>
-{% asset_img 190515142501-band-e-amir-national-park-scenic-getty-images.jpg %}
+<figure class=medium>
+{% asset_img 190515141657-band-e-amir-national-park-getty-images.jpg The stunning park has been described as Afghanistan's Grand Canyon. %}
+<figcaption>The stunning park has been described as Afghanistan's Grand Canyon.</figcaption>
 </figure>
 
 Walking is pretty much the only way to get around the area once you arrive, unless you were to befriend the owner of a donkey or horse. There are 5 lakes, all worth seeing and in close proximity.
@@ -51,6 +55,13 @@ If possible (and provided that you've stayed the night) try to be up on the road
 
 A trail from behind Hotel de Reves leads up the hill, and a 20-minute walk brings you to some stunning views of 2 more of the lakes.
 
+<figure>
+{% asset_img 190515142501-band-e-amir-national-park-scenic-getty-images.jpg %}
+</figure>
+
 The small mosque-like tomb of Amir looks over Band-e Haibat, and unfortunately there are swan peddle boats available for rent here... a good opportunity to ruin the beautiful reflections in the lake.
 
-Behind the tomb of Amir is a women's beach, with a hut built half into the water, allowing women to enjoy a bath in the lake covered from curious views. Taking a bath in the lake is said to cure from diseases (though a lot of rubbish in and around the lake may lead one to fear the opposite).
+Behind the tomb of Amir is a women's beach, with a hut built half into the water, allowing women to enjoy a bath in the lake covered from curious views. Taking a bath in the lake is said to cure from diseases.
+
+**Reference:**
+[CNN: How Band-e-Amir National Park became Afghanistan's oasis of peace](https://edition.cnn.com/travel/article/band-e-amir-afghanistan-national-park/index.html)

@@ -3,6 +3,7 @@ title: Is Bamyan Safe?
 date: 2020-05-14 10:41:20
 featured_image: is-bamyan-safe/00bamian1-superJumbo.jpg
 ---
+
 Formerly the heart of the Silk Road, Buddhism and Islam, Bamyan still remains a melting pot of cultures. Combine its historical cities with miles upon miles of elate mountain of Hindukush, add incredible natural landscapes to discover and VERY friendly and peaceful people for an incredibly fresh air of a country.
 
 Afghanistan totaly is not safe even for local people, however, mainly to do with the Taliban and terrorism conflict and the resulting terroristic attacks. These have consistently happened. It’s no surprise that you’re probably wondering, “**is Bamyan safe?**”

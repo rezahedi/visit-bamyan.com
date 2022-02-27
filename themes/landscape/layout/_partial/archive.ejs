@@ -12,25 +12,11 @@
     <%- partial('article', {post: post, index: true}) %>
   <% }) %>
 <% } else { %>
-  <% var last; %>
+  <section class="archive"><div class="container">
   <% page.posts.each(function(post, i){ %>
-    <% var year = post.date.year(); %>
-    <% if (last != year){ %>
-      <% if (last != null){ %>
-      </div></section>
-      <% } %>
-      <% last = year; %>
-      <!-- <section class="archives-wrap container">
-        <div class="archive-year-wrap">
-          <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive-year"><%= year %></a>
-        </div> -->
-        <section class="archive"><div class="container">
-    <% } %>
     <%- partial('archive-post', {post: post, even: i % 2 == 0}) %>
   <% }) %>
-  <% if (page.posts.length){ %>
-    <div class=cb></div></div></section>
-  <% } %>
+  <div class=cb></div></div></section>
 <% } %>
 <% if (page.total > 1){ %>
   <nav class=pg>

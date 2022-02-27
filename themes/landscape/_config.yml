@@ -10,7 +10,7 @@ menu:
     Buy Souvenirs: /bamyan-souvenirs
     Stay Safe: /is-bamyan-safe
   Where to Stay: /hotels
-  Contact Us: /contact-us
+  Virtual Tour: /virtual-tour
 #  En:
 #    فارسی: /persian
 #    français: /french
@@ -21,22 +21,22 @@ rss: /atom.xml
 
 footer_menu:
   About Bamyan: /about-bamyan
-  Where to Stey: /hotels
+  Where to Stay: /hotels
   Hiking Routes: /categories/Routes
   Where to buy souvenirs: /bamyan-souvenirs
   Try Local Dishes: /cafes_restaurants
   Places to Visit: /categories/Places
-  Stay Safe: /is-bamyan-safe
+  Contact Us: /contact-us
 
 footer_links:
   Festivals: /categories/Festivals
   Attractions: /categories/Places
-  Cafes & Restaurants: /cafes_and_restaurants
-  Entertainment: /entertainment
+  Cafes & Restaurants: /cafes_restaurants
+  Hiking: /categories/Routes
   Shopping: /bamyan-souvenirs
   Activities: /tags/Sport/
 
-phone_number: "+93 789 750 358"
+phone_number: "+93 123 456 789"
 email: "info@visit-bamyan.com"
 
 
@@ -46,7 +46,7 @@ tags:
 
 categories:
   Routes: 'images/routes_category.jpg'
-  Places: 'city-of-scream-gholghola/ishkar-453563423.jpg'
+  Places: 'city-of-screams-gholghola/ishkar-453563423.jpg'
   Festivals: 'bamyan-dambora-festival/136441590_14999483302191n.jpg'
 
 # Content
@@ -73,7 +73,7 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-20324816-40
 gauges_analytics:
 favicon: /assets/favicon.png
 twitter: https://twitter.com/visitbamyan

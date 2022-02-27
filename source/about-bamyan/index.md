@@ -1,11 +1,17 @@
 ---
 title: About Bamyan
-subtitle: About Bamyan the Valley of Gods
+subtitle: Bamyan the Valley of Gods
 date: 2020-06-05 09:08:23
 featured_image: about-bamyan/bamyan-buddha-02.jpg
 ---
 Bamyan also referred to as the “Shining Light” and “Valley of Gods” is one of the oldest cities in central and South Asia. Inhabited since the third century BC and possess some of the world’s most renowned archaeological sites from the fifth century. Bamyan is located in the central highlands, known as the peaceful Hazarajat, Afghanistan.
 <!-- more -->
+When most people hear Afghanistan their minds immediately go to war, the Taliban and all the other negative things associated with a place that’s remained as unstable and invaded time and time again for as long as Afghanistan has.
+
+The thing is, this isn’t the whole picture. Afghanistan is a country packed with natural beauty and pure history and populated by some of the most welcoming people on Earth.
+
+### Bamyan!
+
 Bamyan lies at the heart of ancient {% post_link silk-road-festival silk road %}, once connecting Chinese commerce with Europe and the broader Mediterranean region. It brought languages, believes and tradition together and home to world’s tallest standing {% post_link buddha-statues Buddha statues %}, carved into the red rock cliffs on the north side of Bamyan town.
 
 <!-- <iframe class="alltrails" src="https://www.alltrails.com/widget/map/map-ab4c389--22?u=m" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="AllTrails: Trail Guides and Maps for Hiking, Camping, and Running"></iframe>
@@ -28,15 +34,15 @@ Bamyan town is small and walking is the best option. Around the region you can h
 
 ### Where to see
 
-The nearest and accesible places to see are the ruined Buddha statues, the main reason that most people visit Bamyan. Although some feel that to visit at all is to reward cultural vandalism and desecration. Created in the 6th century, they were the largest in the world and a pilgrimage site for Buddhists. Over the centuries they were damaged by various invaders, and in 2001 the Taliban declared them 'un-islamic', rolled in tanks and destroyed them completely. All that remains are the 'footprints'. But there are many interesting caves and inside, many of the caves have remains of painted frescos. A Afs 300 ticket will get you in, and a guide ($15/day) is well worth it. This ticket will also let you into {% post_link red-city-zahak Zohak City %} and {% post_link city-of-scream-gholghola Golgola City %}.
+The nearest and accesible places to see are the ruined {% post_link buddha-statues Buddha statues %}, the main reason that most people visit Bamyan. Although some feel that to visit at all is to reward cultural vandalism and desecration. Created in the 6th century, they were the largest in the world and a pilgrimage site for Buddhists. Over the centuries they were damaged by various invaders, and in 2001 the Taliban declared them 'un-islamic', rolled in tanks and destroyed them completely. All that remains are the 'footprints'. But there are many interesting caves and inside, many of the caves have remains of painted frescos. A Afs 300 ticket will get you in, and a guide ($15/day) is well worth it. This ticket will also let you into {% post_link red-city-zahak Zohak City %} and {% post_link city-of-scream-gholghola Golgola City %}.
 
 The area around the buddhas and to the west is interesting to walk around (stay on well-used paths). Many of the buildings were destroyed in war.
 
 **Caves** are abundant throughout the mountainside.
 
-**Shahr-e Gholghola** or City of Screams is a fort high above the town that gives some of the best views of the entire valley.
+**Shahr-e Gholghola** or {% post_link city-of-screams-gholghola City of Screams %} is a fort high above the town that gives some of the best views of the entire valley.
 
-Hiking, Cycling and Skiing is a major activity in the Bamyan Valley.
+Hiking, Cycling and {% post_link afghan-ski-challenge Skiing %} is a major activity in the Bamyan Valley.
 
 Bamyan is one of the safest parts of Afghanistan and it is a pioneer in girls’ education and sports including its famous ski at the magnificent snow-capped mountains of Hindu Kush. There are many hotels and women owned shops that sell beautiful handcraft and embroideries. The Bamyan city is surrounded by stunning terrain and a cave network of monasteries including the colossal buddha statues that were destroyed by the Taliban once towered over the valley. Bamyan had the first ever female Governor, Habiba Sarabi and the people of Bamyan are known for their hospitality, love for art and civil and cultural creativity, which are tangible signs of civilization heritage.  
 
@@ -54,7 +60,7 @@ Bamyan is often described as **“the place of shining light.”** The rolling h
 
 Bamiyan’s central cultural monuments are the two Buddha niches for giant statues carved at the eastern and western ends of a high cliff facing the central valley. Some thousand caves inhabited or used by Buddhist monks are also cut into the cliff face and decorated with a rich variety of murals. The Buddhist art of Bamyan, which enjoyed a renaissance after the collapse of the earlier Gandharan culture, spread and influenced various countries along the Silk Road. The Cultural Landscape and Archaeological Remains of the Bamiyan Valley were inscribed on the World Heritage List at the 27th session of the World Heritage Committee in 2003.
 
-{% post_path slug %}<figure><img src="/hexo/images/featured_tag.jpg" /></figure>
+{% post_path slug %}<figure><img src="/images/featured_tag.jpg" /></figure>
 
 #### A. The 4th -7th Centuries: Bamyan Seen by Xuanzang:
 
@@ -77,6 +83,9 @@ In the early 20th Century, the Délégation Archéologique Française en Afghani
 In the late 20th century, Zemaryalai Tarzi of the Institute of Archaeology in Afghanistan started doing major archaeological research in the area. In addition to archaeological and art history investigations, conservation and restoration of the Bamyan site were carried out by the Archaeological Survey of India.
 
 Owing to such long-term international investigations and research, Bamiyan became known for its role as the crossroad of civilisations from India, Persia, and Central Asia. After 1979, the war prevented further academic research there. In 1997, the Taliban regime took over the Bamyan valley and threatened to demolish the site.
+
+<figure class=medium><iframe width="100%" height="450px" src="https://www.youtube.com/embed/b1ic_VUdKZ8?start=2312" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>The Lost of Buddha's of Afghanistan with David Adams - 2001</figcaption></figure>
 
 **References:**
 

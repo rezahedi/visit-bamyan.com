@@ -35,4 +35,4 @@ Depending on your itinerary in Gansu, you'll probably want to look into hiring a
 
 ### What to See and Do
 
-You may think the main (and only) attraction was the world-famous UNESCO-listed Mogao Grottoes. While these caves full of ancient Buddhist art are an incredible attraction, there is much more to see in Gansu Province. Here is a breakdown of many of the famous sites throughout the Gansu Province.
+You may think the main (and only) attraction was the world-famous UNESCO-listed Mogao Grottoes. While these caves full of ancient Buddhist art are an incredible attraction, there is much more to see in Gansu Province.

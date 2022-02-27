@@ -13,8 +13,9 @@ terms:
   left: 806px
   thumbnail_align: right
   thumbnail_image: bamyan-cultural-centre/thumb_map.jpg
+  link: true
 ---
-Bamiyan Cultural Centre project is one of few projects which attempts to address these hopeful aspects of Afghanistan
+Bamiyan Cultural Centre project is one of few projects which attempts to address hopeful aspects of Afghanistan
 <!-- more -->
 Afghanistan has been seen as a country of strife and war, a nation fragmented by decades of conflict and ethnic tension. However, thousands of years of history and deeply refined culture of the country tells a whole different story. The country is a place of extraordinary resilience, where some of the world’s most ancient traditions mingled, where there are stunningly varied landscapes, where beauty, pride, and optimism are national characteristics. Afghans retain a deep well of hope for a better future.
 
@@ -52,4 +53,7 @@ A group of seven professional and experienced Jury members examined each of the 
 
 The assessment of the applications was made in accordance with the pre-defined criteria, and the selections were made anonymously by a unique user code that was given to each of the entries at the time of the submission. In making its selection, the jury applied design principles emphasizing innovation, community needs, environmental consciousness, sustainability and connection to the natural and cultural landscape of the Bamiyan Valley.
 
-**Reference:** [Bamyan Cultural Centre website](http://bamiyanculturalcentre.org)
+*This article need more information and will be updated soon!*
+
+**Reference:**
+[Bamyan Cultural Centre website](http://bamiyanculturalcentre.org)
