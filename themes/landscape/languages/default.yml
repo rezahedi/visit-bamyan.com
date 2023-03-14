@@ -18,7 +18,6 @@ rss_feed: RSS Feed
 category: Category
 tag: Tag
 
-
 routes: Routes
 routes_subtitle: Popular hiking paths & camping places among tourists
 
@@ -38,6 +37,3 @@ events_subtitle: Upcoming local cultural festivals and sport events
 
 stories: Stories
 stories_subtitle: Stories, expriences and adventures of people who visited Bamyan
-
-copy_rights: © 2020, Visit Bamyan. All Rights Reserved.
-made_by: Made with ♥ for Bamyan

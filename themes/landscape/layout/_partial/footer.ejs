@@ -42,8 +42,8 @@
   </div>
   <div class=bar>
     <div class="container">
-      <p class=copy><%= __('copy_rights') %></p>
-      <p class=made><a href='#'><%= __('made_by') %></a></p>
+      <p class=copy>© <%= date(new Date(), 'YYYY') %>, Visit Bamyan. All Rights Reserved.</p>
+      <p class=made>Made by <a href="https://rezahedi.dev"><u>Reza Zahedi</u></a>, open sourced on <a href="https://github.com/rezawm/visit-bamyan.com"><u>Github</u></a> for learning purposes.</p>
     </div>
   </div>
 </footer>
@@ -53,5 +53,3 @@
   <%# if (theme.sidebar === 'bottom'){ %>
     <%#- partial('_partial/sidebar') %>
   <%# } %>
-      <!-- &copy; <%#= date(new Date(), 'YYYY') %> <%#= config.author || config.title %><br>
-      <%#= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a> -->
